@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>BUDGET APP</title>
+</head>
+<body>
+    <h1>BUDGET APP</h1>
+    <div id="notify"><p id="text">please enter text</p></div>
+    <div class="container">
+
+        <!-- boxes -->
+
+        <div class="box">
+                <div class="box1">
+                    <p>Please enter your budget</p>
+                    <input type="number" id="input1" placeholder="please enter your budget">
+                    <input type="submit" id="btn1" value="calculate">
+                </div>
+
+                <div class="box2">
+                   
+                    <div>
+                        <p>Please enter your Expense details</p>
+                        <input type="text" id="input2" placeholder="please enter your expense details">
+                       
+                    </div>
+                    <div>
+                        <p>Please enter your expense amount</p>
+                        <input type="number" id="input3" placeholder="Enter your expense amount" >
+                        <input type="submit" value="Add Expense" id="btn2">
+                    </div>
+                  
+                </div>
+        </div>  
+
+        <!-- details -->
+
+        <div class="det">
+            <div class="det1">
+                <div class="budget">
+                    <h2>BUDGET</h2>
+                    <i class="fas fa-money-check-alt"></i>
+                    <p id="cash">0000</p>
+                </div>
+                <div class="expenses">
+                    <h2>EXPENSES</h2>
+                    <i class="far fa-credit-card"></i>
+                    <p id="expense">000</p>
+                </div>
+                <div class="balance">
+                    <h2>BALANCE</h2>
+                    <i class="fas fa-dollar-sign"></i>
+                    <p id="balance">0000</p>
+                </div>
+            </div>
+
+            <div class="details-box">
+
+                <div class="stor">
+                    <h2>Expense Title</h2>
+                    <h2>Expense Value</h2>
+                </div>
+
+            </div>
+    </div>  
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
